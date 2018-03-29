@@ -5,12 +5,13 @@ function convertRoman(array) {
   var hundredsArray = ['C', 'CC', 'CCC', 'CD', 'D', 'DC', 'DCC', 'DCCC', 'CM'];
   var thousandsArray = ['M', 'MM', 'MMM'];
 
-  for (var i = array.length-1; i >= 0; i--) {
-    array[array.length-1] = onesArray[parseInt(array[array.length-1])-1];
-  }
+  array[0] = onesArray[(parseInt(array[0])-1)];
+  array[1] = tensArray[(parseInt(array[1])-1)];
+  array[2] = hundredsArray[(parseInt(array[2])-1)];
+  array[3] = thousandsArray[(parseInt(array[3])-1)];
 
+  return array.reverse();
 
- return array;
 }
 
 // User Logic
@@ -19,7 +20,7 @@ $(document).ready(function(){
     event.preventDefault();
 
     var userInput = $("#user-input").val();
-    var numbersArray = userInput.split("");
+    var numbersArray = userInput.split("").reverse();
 
     $("#output").empty().append(convertRoman(numbersArray));
   });
