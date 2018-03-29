@@ -1,15 +1,21 @@
-# **[Enter Project Name]**
+# **Roman Numerals**
 
-#### By William Chu
+#### By William Chu and Luke Stockburger
 
 ## Description
 
-[Enter description]
+Convert number to Roman numerals
+
+## Specifications
+
+| Specification | Input | Output
+| --- | --- | --- |
+| Convert binary number to decimal | Binary [0,1,10,11,100] | Decimal [0,1,2,3,4]  |
 
 ## Setup/Installation Requirements
 
-* To view project code, _clone repository from_ https://github.com/william-chu/projectname
-* To view project, _open in web browser_ http://william-chu.github.io/projectname
+* To view project code, _clone repository from_
+* To view project, _open in web browser_
 
 ## Technologies Used
 
@@ -21,4 +27,4 @@
 
 * GPL
 
-Copyright (c) 2018 **_William Chu_**
+Copyright (c) 2018 **_William Chu Luke Stockburger_**
