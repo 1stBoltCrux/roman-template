@@ -8,7 +8,7 @@ Convert number to Roman numerals
 
 ## Specifications
 
-| Specification | Input | Output
+| Specification | Input | Output |
 | --- | --- | --- |
 | Convert number to symbol | Input [1,5,10,50,100,500,1000] | Output [I,V,X,L,C,D,M] |
 | If symbol is next to same symbol, add them, unless they add up to next symbol denomination | Input [2,200,2000, 100] | Output [II,CC,MM,C(not LL)] |
