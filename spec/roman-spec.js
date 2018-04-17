@@ -17,14 +17,14 @@ describe('convertRoman', function() {
 
 describe('convertRoman', function() {
   it('should convert a triple digit number to Roman numerals', function() {
-    var test2 = convertRoman([3,2,1]);
+    var test3 = convertRoman([3,2,1]);
     expect(test2).toEqual(["C","XX","III"]);
   });
 });
 
 describe('convertRoman', function() {
   it('should convert a four digit number to Roman numerals', function() {
-    var test2 = convertRoman([3,3,2,1]);
+    var test4 = convertRoman([3,3,2,1]);
     expect(test2).toEqual(["M","CC","XXX","III"]);
   });
 });
