@@ -1,6 +1,6 @@
 # **Roman Numerals**
 
-#### By William Chu and Luke Stockburger
+#### By William Chu, Luke Stockburger and Ted Leary
 
 ## Description
 
@@ -27,9 +27,15 @@ Convert number to Roman numerals
 * HTML
 * CSS _(Bootstrap)_
 * JavaScript _(jQuery)_
+* Node.js
+* Webpack
+* jasmine
+* karma
+* eslint
+* babel
 
 ## License
 
 * GPL
 
-Copyright (c) 2018 **_William Chu Luke Stockburger_**
+Copyright (c) 2018 **_William Chu, Luke Stockburger and Ted Leary_**
