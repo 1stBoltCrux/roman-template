@@ -1,6 +1,10 @@
-describe('Triangle', function() {
+import { convertRoman } from './../src/roman.js';
 
-  it('should test whether a Triangle has three sides', function() {
-    //Test content will go here.
+describe('convertRoman', function() {
+  it('should convert a single digit number to Roman numerals', function() {
+    var test = convertRoman([1]);
+    expect(test).toEqual(["I"]);
+    // expect(2).toEqual(2);
   });
 });
+//
